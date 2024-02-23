@@ -63,7 +63,7 @@ function checkAllAnswers() {
 
                 setTimeout(() => {
                   // Set 10px margin-bottom between 2nd and 3rd row after shifting rows
-                  allRows[1].style.marginBottom = '10px';
+                  allRows[1].style.marginBottom = '18px';
                   allRows[1].style.transition = 'margin-bottom 0.5s'; // Adjust transition duration to 0.5s
 
                   // Modify background color of specified inputs with transition
